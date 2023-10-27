@@ -1,0 +1,39 @@
+.bg-color{
+    background-color: aquamarine;
+}
+.product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #282525;
+    border-radius: 21px;
+    transform: rotate(30deg);
+}
+@media (min-width:500px){
+.d-md-block {
+    display: block!important;
+}
+}
+.section1{
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .gradient-color{
+    background-clip: 180% 180%;
+  }
+
